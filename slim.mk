@@ -17,12 +17,12 @@
 $(call inherit-product, device/samsung/trltecan/full_trltecan.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_trltecan
+PRODUCT_NAME := slim_trltecan
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="trltecan" \
