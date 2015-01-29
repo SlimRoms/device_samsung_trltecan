@@ -1,7 +1,7 @@
 [
   {
     "repository": "SlimRoms/device_samsung_trlte-common",
-    "target_path": "device/samsung/trlte-common"
+    "target_path": "device/samsung/trlte-common",
     "branch": "lp5.0"
   },
   {
@@ -38,5 +38,5 @@
     "repository": "slayher/android_kernel_samsung_trlte",
     "target_path": "kernel/samsung/trlte",
     "branch": "cm-12.0"
-  },
+  }
 ]
